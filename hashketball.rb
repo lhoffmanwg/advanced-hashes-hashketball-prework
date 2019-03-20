@@ -108,7 +108,7 @@ def player_stats(player_name)
     #attributes.each do |attribute_type, attribute_value|
       
       attributes[:players].each do |name, stats|
-        binding.pry
+        #binding.pry
         # attribute_value.each do |name, stats|
            #binding.pry
            
