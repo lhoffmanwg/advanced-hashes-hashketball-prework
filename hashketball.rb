@@ -105,18 +105,18 @@ end
 
 def player_stats(player_name)
   game_hash.each do |location, attributes|
-    attributes.each do |attribute_type, attribute_value|
+    #attributes.each do |attribute_type, attribute_value|
       
-      if attribute_type = :players
+      attributes[:players].each |name, stats|
         binding.pry
-         attribute_value.each do |name, stats|
+        # attribute_value.each do |name, stats|
            #binding.pry
            
           if player_name == name
             return stats
           end  
-        end  
+        #end  
       end 
     end  
-  end  
+  #end  
 end  
