@@ -108,15 +108,9 @@ def player_stats(player_name)
     #attributes.each do |attribute_type, attribute_value|
       
       attributes[:players].each do |name, stats|
-        #binding.pry
-        # attribute_value.each do |name, stats|
-           #binding.pry
-           
           if player_name == name
            return stats
           end  
-        #end  
-      end 
-    #end  
+      end
   end  
 end  
