@@ -105,7 +105,6 @@ end
 
 def player_stats(player_name)
   game_hash.each do |location, attributes|
-      
       attributes[:players].each do |name, stats|
           if player_name == name
            return stats.to_i
