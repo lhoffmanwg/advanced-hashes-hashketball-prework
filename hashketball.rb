@@ -112,11 +112,11 @@ def player_stats(player_name)
         # attribute_value.each do |name, stats|
            #binding.pry
            
-          if player_name == name
-            return stats
-          end  
-        end  
+          #if player_name == name
+          #  return stats
+          #end  
+        #end  
       end 
-    end  
-  #end  
+    #end  
+  end  
 end  
