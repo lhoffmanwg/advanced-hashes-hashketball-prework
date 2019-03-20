@@ -114,6 +114,12 @@ def player_stats(player_name)
 end  
 
 def big_shoe_rebounds
-  
-
+  game_hash.each do |location, attributes|
+    attributes[:players].each do |name, stats|
+      stats.each do |stat_name, stat_value|
+        if stat_name == :shoe
+        end  
+      end 
+    end  
+  end
 end  
