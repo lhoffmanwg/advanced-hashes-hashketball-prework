@@ -109,7 +109,7 @@ def player_stats(player_name)
       
       attributes[:players].each do |name, stats|
           if player_name == name
-           return stats
+           return stats.to_i
           end  
       end
   end  
